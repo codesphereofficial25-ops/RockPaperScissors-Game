@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rockPaperScissorGame</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Rock, Paper, Scissors</h1>
+
+        <div class="scoreboard">
+            <p>Computer: <span class="computer-score">0</span></p>
+            <p>You: <span class="user-score">0</span></p>
+        </div>
+
+        <div class="choice">
+            <div class="computer-choice">
+                <p>Computer's Choice:</p>
+                <button class="choice-btn computer-choice-btn">❓</button>
+            </div>
+            <div class="user-choice">
+                <p>Select your move:</p>
+                <div class="user-btn">
+                    <button class="choice-btn user-choice-btn" id="rock">✊🏼</button>
+                    <button class="choice-btn user-choice-btn" id="paper">✋🏼</button>
+                    <button class="choice-btn user-choice-btn" id="scissors">✌🏼</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="result">
+            Select your move to start the game!
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
